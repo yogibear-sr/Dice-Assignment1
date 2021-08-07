@@ -1,4 +1,4 @@
-# Dice-Assignment1
+# Dice Simulation Assignment1
 lambda function dice distribution simulation
 
 roll_dice.py - python script to roll dice and sum the total and then summary how many times each total has occurred
