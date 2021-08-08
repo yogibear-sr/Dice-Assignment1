@@ -17,7 +17,7 @@ Using terraform do the following
        terraform apply
        (if it's all clear and there are no errors then say "yes" when prompted to do so)
        
-When the above deployment is complete you can run the simlation by logging into the console and goto lambda and click on the function created above and click test with the following details
+When the above deployment is complete you can run the simlation by logging into the console and goto lambda and click on the function created above and click test with the following details. Ensure you are in ohio-us-east-2 region
 
 Saved Test Events - RollTheDice
 
