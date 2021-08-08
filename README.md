@@ -1,9 +1,9 @@
 # Dice Simulation Assignment1
 lambda function dice distribution simulation
 
-roll_dice.py - python script to roll dice and sum the total and then summary how many times each total has occurred
-variables.tf - terraform varirables
-main.tf - main terraform file which create a lambda function and deploys the above python script.
+         roll_dice.py - python script to roll dice and sum the total and then summary how many times each total has occurred
+         variables.tf - terraform varirables
+         main.tf - main terraform file which create a lambda function and deploys the above python script.
 
 Download the repository using git clone into a folder
 Ensure you have access to AWS through access keys or token from the cli
@@ -23,15 +23,15 @@ Saved Test Events - RollTheDice
 
 To do a simulation of 100 throws with 3 dice and 6 sides , edit the JSON below and enter the following paramters
 
-{
-  "ndice": "3",
-  "nsides": "6",
-  "nthrows": "100"
- }
+       {
+          "ndice": "3",
+          "nsides": "6",
+          "nthrows": "100"
+        }
 
 This will output json format to the screen and a file in the following s3 bucket with the output
 
-s3://roll-the-dice0123456789/rolldice_output.txt
+s3://roll-the-dice0123456789/rolldice_output<random 6 DIGIT INTEGER>.txt
 
 
 
